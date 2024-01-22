@@ -1,0 +1,16 @@
+
+http://localhost:8080/login/oatuh/code/google
+구글 로그인이 완료되고 나면 구글 서버가 우리에게 코드를 넘겨주고
+oauthClient라는 라이브러리를 쓰게 되면 코드를 받을 수 있는 url은 정해져 있다.
+앞에 도메인 주소 (localhost:8080)까지는 자유롭고 그 뒤로부터는 정해져 있다.
+그리고 이 주소에 대한 컨트롤러는 만들 필요 없다
+코드를 가지고 액세스 토큰을 요청한다.
+액세스 토큰은 사용자의 정보에 접근할 수 있는 권한이 생긴다.
+
+클라이언트 ID
+706010677620-t69g6tn1r96p4g09brasuqnarubcoddo.apps.googleusercontent.com
+
+클라이언트 비밀번호
+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
+
+
